@@ -539,6 +539,8 @@ footer {
 
     .wrapper {
         max-width: 800px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .first-floor {
@@ -607,6 +609,19 @@ footer {
         padding-bottom: 15px;
     }
 
+
+    .ninth-floor input {
+        width: 300px;
+        height: 50px;
+
+    }
+
+    .ninth-floor button {
+        font-size: 11px;
+        line-height: normal;
+        padding: 18px 20px 18px 20px;
+    }
+
     .ninth-floor>h1 {
         padding-top: 0;
         font-size: 32px;
@@ -626,16 +641,49 @@ footer {
     .right-tenth-floor {
         margin-top: 40px;
     }
+
+
+    .footer-wrapper>svg {
+        padding-right: 40px;
+    }
 }
 
-@media (max-width: 375px) {
-    header {
-        width: 350px;
+@media (max-width: 800px) {
+
+    .get-in-touch {
+        width: unset;
     }
 
+    .left-tenth-floor form {
+        width: 95%;
+    }
+
+    .name-item {
+        width: 44%;
+        margin-right: 0;
+    }
+
+    .email-item {
+        width: 44%;
+    }
+
+    .text-item {
+        width: 90%;
+    }
+
+    .left-tenth-floor button {
+        width: 90%;
+    }
+
+    .right-tenth-floor {
+        padding-left: 10px;
+    }
+}
+
+
+@media (max-width: 375px) {
     .wrapper {
         max-width: 375px;
-        padding-left: 20px;
     }
 
     .left-first-floor H1 {
@@ -704,12 +752,23 @@ footer {
         padding-left: 12px;
     }
 
+    .left-tenth-floor form {
+        width: 100%;
+    }
+
     .text-item {
         width: 350px;
     }
 
     .name-item {
         margin-right: 0;
+        width: 350px;
+    }
+
+    .email-item {
+        margin-top: 5px;
+        width: 350px;
+
     }
 
     .left-tenth-floor button {
